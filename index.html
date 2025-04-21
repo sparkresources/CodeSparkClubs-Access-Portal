@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeSparkClubs Access Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="password-wrapper">
+        <div class="password-form">
+            <h1>Enter Password</h1>
+            <input type="password" id="password" placeholder="Password">
+            <button id="submit-password">Submit</button>
+            <p id="password-error" class="error"></p>
+        </div>
+    </div>
+
+    <div id="main-content" style="display: none;">
+        <div class="hero">
+            <h1>CodeSparkClubs</h1>
+            <h2>Access Portal</h2>
+            <div class="scroll-indicator">
+                <p>Scroll Down</p>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="categories">
+                <button class="category-btn" data-category="events">Events</button>
+                <button class="category-btn" data-category="flyers">Flyer Design</button>
+                <button class="category-btn" data-category="newsletters">Newsletters</button>
+                <button class="category-btn" data-category="presentations">Presentations</button>
+                <button class="category-btn" data-category="projects">Project Guides</button>
+                <button class="category-btn" data-category="resources">Resources</button>
+                <button class="category-btn" data-category="slideshows">Static Slideshows</button>
+            </div>
+
+            <div id="content-area">
+                <div class="welcome">
+                    <h2>Welcome to CodeSparkClubs</h2>
+                    <p>Select a category to explore resources for your AI club.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
